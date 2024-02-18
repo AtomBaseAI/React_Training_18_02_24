@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="nav-bar">
+        <div class="logo-containter">
+            <img src="https://siliconsoftwareservices.com/wp-content/uploads/2022/01/right-svg.svg" alt="logo"
+                class="logo">
+        </div>
+        <div class="nav-group">
+            <ul class="nav-links">
+                <a href="./index.html">
+                    <li>
+                        Home
+                    </li>
+                </a>
+                <a href="./courses.html">
+                    <li>
+                        Courses
+                    </li>
+                </a>
+                <a href="./login.html">
+                    <li class="active">
+                        Login
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <div class="login-containerx">
+        <div class="login-form">
+            <form class="form-data" onsubmit="Login()">
+                <input type="email" placeholder="Email" class="form-input" id="email" />
+                <input type="password" placeholder="Password" class="form-input" id="password" />
+                <input type="submit" value="Login" class="form-btn" />
+            </form>
+        </div>
+        <!-- <button onclick="Sample()">Test button</button> -->
+    </div>
+</body>
+<script>
+    var data = "Hello world "
+    var data2 = 10
+
+    // function Sample(){
+    //     console.log(data + 1)
+    //     console.log(data2 + 1)
+    //     alert(data2 + 1)
+    // }
+    function Login() {
+        var useremail = document.getElementById("email").value;
+        var userpassword = document.getElementById("password").value;
+        // console.log("Email: " + useremail +" Password: "+ userpassword)
+        // alert("Email: " + useremail +" Password: "+ userpassword)
+        if (userpassword.length < 6) {
+            alert(" Password should be more than 6 letters")
+        }
+        else{
+            alert("Login Successfull")
+        }
+    }
+
+</script>
+
+</html>
