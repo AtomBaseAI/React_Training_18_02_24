@@ -1,0 +1,36 @@
+{
+  "courses": [
+    {
+      "id": "3",
+      "title": "Artificial Intelligence 3",
+      "img": "https://siliconsoftwareservices.com/wp-content/uploads/2023/10/ai-logo.png",
+      "m1": "Machine Learning 3",
+      "m2": "Deep Learning 3",
+      "m3": "Data Science 3"
+    },
+    {
+      "id": "4",
+      "title": "Artificial Intelligence 3",
+      "img": "https://siliconsoftwareservices.com/wp-content/uploads/2023/10/ai-logo.png",
+      "m1": "Machine Learning 3",
+      "m2": "Deep Learning 3",
+      "m3": "Data Science 3"
+    },
+    {
+      "id": "8e53",
+      "title": "Java Development 2",
+      "img": "https://siliconsoftwareservices.com/wp-content/uploads/2021/12/java-removebg-preview.png",
+      "m1": "Java – J2SE",
+      "m2": "Servlet, Jsp, JDBC (OCWCD)",
+      "m3": "SpringBoot"
+    },
+    {
+      "id": "2306",
+      "title": "Data Analytics 1",
+      "img": "https://siliconsoftwareservices.com/wp-content/uploads/2023/10/data-analytic-logo.png",
+      "m1": "PowerBI",
+      "m2": "Tableau",
+      "m3": "SQL Database"
+    }
+  ]
+}
